@@ -3,7 +3,7 @@
 AI-powered frontend application for FlyRankAI.
 
 ## Tech Stack
-- **Framework**: React + TypeScript + Vite (or Next.js — we'll decide soon)
+- **Framework**: React + TypeScript + Vite (or Next.js)
 - **Styling**: Tailwind CSS
 - **State Management**: Zustand or React Query
 - **UI Library**: shadcn/ui + Radix
