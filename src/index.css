@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Outfit', sans-serif;
+  --font-sans: 'Source Sans 3', sans-serif;
+
+  --color-ink: #0f1c24;
+  --color-ink-muted: #4a5d6a;
+  --color-surface: #f3f6f8;
+  --color-surface-elevated: #ffffff;
+  --color-border: #d5dee5;
+  --color-border-strong: #b6c4cf;
+  --color-accent: #0d7a6f;
+  --color-accent-hover: #0a635a;
+  --color-accent-soft: #e4f4f1;
+  --color-danger: #b42318;
+  --color-danger-soft: #fef3f2;
+  --color-success: #067647;
+  --color-success-soft: #ecfdf3;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background:
+    radial-gradient(ellipse 80% 50% at 10% -10%, #cfe8e3 0%, transparent 55%),
+    radial-gradient(ellipse 60% 40% at 100% 0%, #d9e6f0 0%, transparent 50%),
+    linear-gradient(180deg, #eef3f6 0%, var(--color-surface) 40%, #e8eef2 100%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
