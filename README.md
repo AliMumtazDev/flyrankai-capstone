@@ -6,8 +6,9 @@ AI-powered frontend application for FlyRankAI.
 This is my capstone project as **AI Frontend Engineer Intern** at FlyRankAI. The goal is to build modern, AI-assisted web applications using best practices and Claude Code / Cursor.
 
 ## Tech Stack
-- **Frontend**: React + TypeScript + Vite
+- **Frontend**: Next.js + React + TypeScript
 - **Styling**: Tailwind CSS + shadcn/ui
+- **Forms**: React Hook Form + Zod
 - **AI Tools**: Claude Code + Cursor
 - **Version Control**: Git with Conventional Commits
 
@@ -22,3 +23,7 @@ npm install
 
 # Start development server
 npm run dev
+
+# Run unit tests
+npm test
+```

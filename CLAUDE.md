@@ -3,9 +3,9 @@
 AI-powered frontend application for FlyRankAI.
 
 ## Tech Stack
-- **Framework**: React + TypeScript + Vite (or Next.js)
+- **Framework**: Next.js + React + TypeScript
 - **Styling**: Tailwind CSS
-- **State Management**: Zustand or React Query
+- **Forms**: React Hook Form + Zod
 - **UI Library**: shadcn/ui + Radix
 - **Formatting**: ESLint + Prettier
 
@@ -13,7 +13,7 @@ AI-powered frontend application for FlyRankAI.
 - `npm run dev` — Start development server
 - `npm run build` — Production build
 - `npm run lint` — Run linter
-- `npm run format` — Format code
+- `npm test` — Run unit tests
 
 ## Code Conventions
 - Use functional components with hooks
